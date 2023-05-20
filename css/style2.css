@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.div__flex{
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.encabezado{
+    background-color: rgb(52, 133, 255);
+    height: 250px;
+    width: 750px;
+    border-bottom: 5px solid #000;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    border-top: 10px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.banner{
+    background-color: aliceblue;
+    width: 500px;
+    height: 220px;
+    margin: 5px;
+    
+    border: 1px solid #000;
+    
+}
+
+.logo{
+    
+    background-color: aliceblue;
+    width: 200px;
+    height: 220px;
+    margin: 5px;
+    border: 1px solid #000;
+    
+   
+}
+
+
+
+.navegador{
+    background-color: forestgreen;
+    height: 50px;
+    width: 750px;
+    border-bottom: 5px solid #000;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    border-top: 5px solid #000;
+
+
+
+}
+
+.principal{
+    background-color: gray;
+    height: 400px;
+    width: 750px;
+    border-bottom: 5px solid #000;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    border-top: 5px solid #000;
+    display:flex;
+    
+
+}
+
+.articulo{
+
+    background-color: aliceblue;
+    width: 450px;
+    height: 370px;
+    border: 3px solid gold;
+    margin: 10px 10px;
+   
+}
+
+.izquierda{
+    background-color: aliceblue;
+    width: 280px;
+    height: 370px;
+    border: 3px solid gold;
+    margin: 10px 10px;
+  
+}
+
+
+.pie{
+    height:50px;
+    background-color: gold;
+    text-align: center;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    border-top: 5px solid #000;
+    width: 750px;
+    line-height: 50px;
+
+}
